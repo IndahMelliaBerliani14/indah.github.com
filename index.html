@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- =====COSTUM CSS===== -->
+  <link rel="stylesheet" href="./style.css" />
+  
+  <!-- =====BOX ICONS===== -->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  
+  <!-- ===== IONICONS ===== -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  
+  <!--=============== LINE ICONS ===============-->
+  <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css" />
+  
+  <title>Indah Mellia Berliani</title>
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+      <div>
+        <a href="#home" class="nav__logo"><img class="" src="./assets/img/nav-logo.png" alt="" /></a>
+      </div>
+      <div>
+        <input type="checkbox" id="darkmode" />
+        <label for="darkmode" class="icon">
+          <i style="color: var(--secondary-color);" class="bx bxs-sun"></i>
+          <i class="bx bxs-moon"></i>
+        </label>
+      </div>
+      <div class="nav__menu" id="nav-menu">
+        
+        <div class="nav__close" id="nav-close">
+          <i class="bx bx-x"></i>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Tentang</a>
+          </li>
+          <li class="nav__item">
+            <a href="#experience-education" class="nav__link">Pengalaman & Pendidikan</a>
+          </li>
+          <li class="nav__item">
+            <a href="#tkk" class="nav__link">Pencapaian TKK</a>
+          </li>
+          <li class="nav__item">
+            <a href="#keterampilan" class="nav__link">Keterampilan</a>
+          </li>
+          <li class="nav__item">
+            <a href="#hobbies" class="nav__link">Hobi</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h2 class="home__title">
+          hai perkenalkan Saya <br /> <span class="home__title-color">Indah Mellia Berliani</span>
+        </h2>
+        <p class="home__description">siswi SMAN 1 Pedes. Saya lahir di Karawang pada tanggal tahun. Saat ini saya menjabat sebagai Ketua Dewan Ambalan Putri di gugus depan SMAN 1 Pedes.</p>
+      </div>
+      
+      <div class="home__social">
+        <a href="" class="home__social-icon"><ion-icon name="logo-tiktok"></ion-icon></a>
+        <a href="" target="_blank" class="home__social-icon"><i class="bx bxl-instagram"></i></a>
+        <a href="" target="_blank" class="home__social-icon"><ion-icon name="mail-outline"></ion-icon></a>
+        <a href="" target="_blank" class="home__social-icon"><i class="bx bxl-blogger"></i></a>
+      </div>
+      
+      <div class="home__img">
+        <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <mask id="mask0" mask-type="alpha">
+            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+          </mask>
+          <g mask="url(#mask0)">
+            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+            <image class="home__blob-img" x="50" y="60" href="./assets/img/hero.png" />
+          </g>
+        </svg>
+      </div>
+    </section>
+    
+    <!--===== EXPERIENCE & EDUCATION =====-->
+    <section class="section" id="experience-education">
+      <h2 class="section-title">Pengalaman & Pendidikan</h2>
+      
+      <div class="dual-column-container">
+        <!-- Left Column - Experience -->
+        <div class="column experience-column">
+          <h3 class="column-title">Pengalaman Organisasi</h3>
+          
+          <div class="timeline-container">
+            <div class="timeline-item">
+              <div class="timeline-icon">
+                <i class='bx bxs-user-detail'></i>
+              </div>
+              <div class="timeline-line"></div>
+              <div class="timeline-year">2022 - 2023</div>
+              <div class="timeline-content">
+                <h3 class="timeline-title">Wakil Pratama</h3>
+                <div class="timeline-description">
+                  <p>Pangkalan SMPN 1 Pedes (Kelas VIII)</p>
+                  <p>Membantu Pratama dalam memimpin kegiatan</p>
+                  <p>Bertanggung jawab atas divisi tertentu</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-icon">
+                <i class='bx bxs-user'></i>
+              </div>
+              <div class="timeline-line"></div>
+              <div class="timeline-year">2023 - 2024</div>
+              <div class="timeline-content">
+                <h3 class="timeline-title">Anggota</h3>
+                <div class="timeline-description">
+                  <p>Pangkalan SMAN 1 Pedes (Kelas X)</p>
+                  <p>Aktif mengikuti kegiatan kepramukaan</p>
+                  <p>Mengembangkan keterampilan dasar pramuka</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-icon">
+                <i class='bx bxs-crown'></i>
+              </div>
+              <div class="timeline-line"></div>
+              <div class="timeline-year">2024 - 2025</div>
+              <div class="timeline-content">
+                <h3 class="timeline-title">Ketua Dewan Ambalan Putri</h3>
+                <div class="timeline-description">
+                  <p>Gugus Depan SMAN 1 Pedes</p>
+                  <p>Memimpin dan mengkoordinasi kegiatan kepramukaan</p>
+                  <p>Membina anggota dalam pengembangan karakter</p>
+                  <p>Menyusun program kerja tahunan</p>
+                  <p>Mengembangkan jiwa kepemimpinan anggota</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Right Column - Education -->
+        <div class="column education-column">
+          <h3 class="column-title">Pendidikan</h3>
+          
+          <div class="timeline-container">
+            <div class="timeline-item">
+              <div class="timeline-icon">
+                <i class='bx bxs-school'></i>
+              </div>
+              <div class="timeline-line"></div>
+              <div class="timeline-year">2014 - 2019</div>
+              <div class="timeline-content">
+                <h3 class="timeline-title">SDN Sungaibuntu 1</h3>
+                <div class="timeline-description">
+                  <p>Pendidikan Dasar</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-icon">
+                <i class='bx bxs-graduation'></i>
+              </div>
+              <div class="timeline-line"></div>
+              <div class="timeline-year">2020 - 2023</div>
+              <div class="timeline-content">
+                <h3 class="timeline-title">SMPN 1 Pedes</h3>
+                <div class="timeline-description">
+                  <p>Pendidikan Menengah Pertama</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-icon">
+                <i class='bx bxs-book'></i>
+              </div>
+              <div class="timeline-line"></div>
+              <div class="timeline-year">2023 - 2026</div>
+              <div class="timeline-content">
+                <h3 class="timeline-title">SMAN 1 Pedes</h3>
+                <div class="timeline-description">
+                  <p>Pendidikan Menengah Atas (Sedang Berlangsung)</p>
+                  <p>Jurusan: [Isi jurusan jika ada]</p>
+                  <p>Organisasi: Pramuka (Ketua Dewan Ambalan Putri)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--===== Pencapaian TKK =====-->
+    <section class="section" id="tkk">
+      <h2 class="section-title">Pencapaian TKK</h2>
+      
+      <div class="tkk-section">
+        
+        <!-- TKK Sholat -->
+        <div class="tkk-card">
+          <div class="tkk-header">
+            <div class="tkk-number">1</div>
+            <h3 class="tkk-title">SHOLAT</h3>
+          </div>
+          <span class="tkk-category">Bidang Agama dan Mental</span>
+          <p class="tkk-description">
+            Untuk mencapai TKK Sholat, saya memahami syarat, rukun dan yang membatalkan solat
+          </p>
+          <div class="tkk-slider">
+            <div class="tkk-slide-container" id="tkkSlider1">
+              <div class="tkk-slide">
+                <img src="assets/img/tkk-sholat.jpg" alt="tkk-sholat">
+              </div>
+              <div class="tkk-slide">
+                <img src="assets/img/tkk-sholat2.jpg" alt="tkk-sholat2">
+              </div>
+            </div>
+            
+            <button class="tkk-slider-btn tkk-slider-prev">❮</button>
+            <button class="tkk-slider-btn tkk-slider-next">❯</button>
+            
+            <div class="tkk-slider-nav">
+              <div class="tkk-slider-dot active"></div>
+              <div class="tkk-slider-dot"></div>
+            </div>
+          </div>
+        </div>
+        
+        
+        <!-- TKK Melukis -->
+        <div class="tkk-card">
+          <div class="tkk-header">
+            <div class="tkk-number">2</div>
+            <h3 class="tkk-title">PELUKIS</h3>
+          </div>
+          <span class="tkk-category">Bidang Ketangkasan dan Kesehatan</span>
+          <p class="tkk-description">
+            Untuk mencapai TKK Melukis, saya membuat beberapa karya dengan teknik berbeda:
+          </p>
+          
+          <div class="tkk-slider">
+            <div class="tkk-slide-container" id="tkkSlider1">
+              <div class="tkk-slide">
+                <img src="assets/img/tkk-melukis.jpg" alt="Karya Cat Air">
+              </div>
+              <div class="tkk-slide">
+                <img src="assets/img/tkk-melukis2.jpg" alt="Karya Digital">
+              </div>
+            </div>
+            
+            <button class="tkk-slider-btn tkk-slider-prev">❮</button>
+            <button class="tkk-slider-btn tkk-slider-next">❯</button>
+            
+            <div class="tkk-slider-nav">
+              <div class="tkk-slider-dot active"></div>
+              <div class="tkk-slider-dot"></div>
+            </div>
+          </div>
+        </div>
+        
+        
+        <!-- TKK Juru Renang -->
+        <div class="tkk-card">
+          <div class="tkk-header">
+            <div class="tkk-number">3</div>
+            <h3 class="tkk-title">Juru Renang</h3>
+          </div>
+          <span class="tkk-category">Bidang Ketangkasan dan Kesehatan</span>
+          <p class="tkk-description">
+            Deskripsi pencapaian TKK Juru Renang akan ditambahkan di sini
+          </p>
+          <div class="tkk-image">
+            
+          </div>
+          <div class="tkk-slider">
+            <div class="tkk-slide-container" id="tkkSlider1">
+              <div class="tkk-slide">
+                <img src="assets/img/tkk-renang.jpg" alt="tkk-renang">
+              </div>
+              <div class="tkk-slide">
+                <img src="assets/img/tkk-renang2.jpg" alt="tkk-renang2">
+              </div>
+            </div>
+            
+            <button class="tkk-slider-btn tkk-slider-prev">❮</button>
+            <button class="tkk-slider-btn tkk-slider-next">❯</button>
+            
+            <div class="tkk-slider-nav">
+              <div class="tkk-slider-dot active"></div>
+              <div class="tkk-slider-dot"></div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- TKK Mengasih Makan Kelinci -->
+        <div class="tkk-card">
+          <div class="tkk-header">
+            <div class="tkk-number">4</div>
+            <h3 class="tkk-title">PENGASUH KELINCI</h3>
+          </div>
+          <span class="tkk-category">Bidang Ketrampilan dan Teknik</span>
+        <p>Untuk mencapai TKK ini, saya telah mempelajari:</p>
+<ul class="tkk-list">
+  <li>Jenis pakan kelinci yang bernutrisi</li>
+  <li>Jadwal pemberian makan yang ideal</li>
+  <li>Cara menyiapkan pakan alami</li>
+  <li>Teknik pengamatan kesehatan kelinci</li>
+</ul>
+        
+
+          <div class="tkk-slider">
+            <div class="tkk-slide-container">
+              <div class="tkk-slide">
+                <img src="assets/img/tkk-kelinci.jpg" alt="Menyiapkan pakan kelinci">
+              </div>
+              <div class="tkk-slide">
+                <img src="assets/img/tkk-kelinci2.jpg" alt="Memberi makan kelinci">
+              </div>
+            </div>
+            
+            <button class="tkk-slider-btn tkk-slider-prev">❮</button>
+            <button class="tkk-slider-btn tkk-slider-next">❯</button>
+            
+            <div class="tkk-slider-nav">
+              <div class="tkk-slider-dot active"></div>
+              <div class="tkk-slider-dot"></div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- TKK Mengasih Makan Kambing -->
+        <div class="tkk-card">
+          <div class="tkk-header">
+            <div class="tkk-number">5</div>
+            <h3 class="tkk-title">PENGASUH KAMBING</h3>
+          </div>
+          <span class="tkk-category">Bidang Ketrampilan dan Teknik</span>
+          <p class="tkk-description">
+            Pencapaian dalam merawat kambing meliputi: </p>
+          <ul class="tkk-list">
+            <li>Memahami kebutuhan gizi kambing</li>
+            <li>Teknik pemberian pakan yang benar</li>
+            <li>Pembuatan pakan fermentasi</li>
+            <li>Pengenalan tanaman pakan ternak</li>
+          </ul>
+         
+          
+          <div class="tkk-slider">
+            <div class="tkk-slide-container">
+              <div class="tkk-slide">
+                <img src="assets/img/tkk-kambing.jpg" alt="Mengumpulkan rumput">
+              </div>
+              <div class="tkk-slide">
+                <img src="assets/img/tkk-kambing2.jpg" alt="Memberi makan kambing">
+              </div>
+            </div>
+            
+            
+            <button class="tkk-slider-btn tkk-slider-prev">❮</button>
+            <button class="tkk-slider-btn tkk-slider-next">❯</button>
+            
+            <div class="tkk-slider-nav">
+              <div class="tkk-slider-dot active"></div>
+              <div class="tkk-slider-dot"></div>
+            </div>
+          </div>
+        </div>
+        
+    </section>
+    
+    <!--===== KETERAMPILAN & HOBBIES =====-->
+<section class="section" id="keterampilan">
+  <h2 class="section-title">Keterampilan & Hobi</h2>
+  
+  <div class="dual-column-container">
+    <!-- Kolom Kiri - Keterampilan -->
+    <div class="column">
+      <h3 class="column-title">Keterampilan Teknis</h3>
+      
+      <div class="keterampilan-card">
+        <div class="keterampilan-header">
+          <div class="keterampilan-icon"><i class='bx bxs-pen'></i></div>
+          <h3 class="keterampilan-name">Editing Digital</h3>
+        </div>
+        <div class="keterampilan-bar">
+          <div class="keterampilan-progress" style="width: 75%">
+            <span class="keterampilan-percent">75%</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="keterampilan-card">
+        <div class="keterampilan-header">
+          <div class="keterampilan-icon"><i class='bx bxs-cookie'></i></div>
+          <h3 class="keterampilan-name">Memasak</h3>
+        </div>
+        <div class="keterampilan-bar">
+          <div class="keterampilan-progress" style="width: 85%">
+            <span class="keterampilan-percent">85%</span>
+          </div>
+        </div>
+      </div>
+       <div class="keterampilan-card">
+          <div class="keterampilan-header">
+            <div class="keterampilan-icon"><i class='bx bxs-time'></i></div>
+            <h3 class="keterampilan-name">Manajemen Waktu</h3>
+          </div>
+          <div class="keterampilan-bar">
+            <div class="keterampilan-progress" style="width: 85%">
+              <span class="keterampilan-percent">85%</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="keterampilan-card">
+          <div class="keterampilan-header">
+            <div class="keterampilan-icon"><i class='bx bxs-group'></i></div>
+            <h3 class="keterampilan-name">Kepemimpinan</h3>
+          </div>
+          <div class="keterampilan-bar">
+            <div class="keterampilan-progress" style="width: 80%">
+              <span class="keterampilan-percent">80%</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="keterampilan-card">
+          <div class="keterampilan-header">
+            <div class="keterampilan-icon"><i class='bx bxs-check-shield'></i></div>
+            <h3 class="keterampilan-name">Disiplin</h3>
+          </div>
+          <div class="keterampilan-bar">
+            <div class="keterampilan-progress" style="width: 90%">
+              <span class="keterampilan-percent">90%</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="keterampilan-card">
+          <div class="keterampilan-header">
+            <div class="keterampilan-icon"><i class='bx bxs-chat'></i></div>
+            <h3 class="keterampilan-name">Komunikasi Efektif</h3>
+          </div>
+          <div class="keterampilan-bar">
+            <div class="keterampilan-progress" style="width: 75%">
+              <span class="keterampilan-percent">75%</span>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+    <!-- Kolom Kanan - Hobi -->
+    <div class="column">
+      <h3 class="column-title">Keterampilan Soft Skill</h3>
+      
+<div class="hobby-card">
+          <div class="hobby-icon"><i class='bx bxs-cookie'></i></div>
+          <h3 class="hobby-name">Memasak</h3>
+        </div>
+        
+        <div class="hobby-card">
+          <div class="hobby-icon"><i class='bx bxs-pen'></i></div>
+          <h3 class="hobby-name">Menulis</h3>
+        </div>
+        
+        <div class="hobby-card">
+          <div class="hobby-icon"><i class='bx bxs-music'></i></div>
+          <h3 class="hobby-name">Mendengarkan Musik</h3>
+        </div>
+        
+        <div class="hobby-card">
+          <div class="hobby-icon"><i class='bx bxs-camera'></i></div>
+          <h3 class="hobby-name">Editing Digital</h3>
+        </div>
+    </div>
+  </div>
+</section>
+
+    <!--===== KETERAMPILAN =====-->
+    <section class="section" id="keterampilan">
+      <h2 class="section-title">Keterampilan</h2>
+      
+      <div class="keterampilan-section">
+        <div class="keterampilan-card">
+          <div class="keterampilan-header">
+            <div class="keterampilan-icon"><i class='bx bxs-time'></i></div>
+            <h3 class="keterampilan-name">Manajemen Waktu</h3>
+          </div>
+          <div class="keterampilan-bar">
+            <div class="keterampilan-progress" style="width: 85%">
+              <span class="keterampilan-percent">85%</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="keterampilan-card">
+          <div class="keterampilan-header">
+            <div class="keterampilan-icon"><i class='bx bxs-group'></i></div>
+            <h3 class="keterampilan-name">Kepemimpinan</h3>
+          </div>
+          <div class="keterampilan-bar">
+            <div class="keterampilan-progress" style="width: 80%">
+              <span class="keterampilan-percent">80%</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="keterampilan-card">
+          <div class="keterampilan-header">
+            <div class="keterampilan-icon"><i class='bx bxs-check-shield'></i></div>
+            <h3 class="keterampilan-name">Disiplin</h3>
+          </div>
+          <div class="keterampilan-bar">
+            <div class="keterampilan-progress" style="width: 90%">
+              <span class="keterampilan-percent">90%</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="keterampilan-card">
+          <div class="keterampilan-header">
+            <div class="keterampilan-icon"><i class='bx bxs-chat'></i></div>
+            <h3 class="keterampilan-name">Komunikasi Efektif</h3>
+          </div>
+          <div class="keterampilan-bar">
+            <div class="keterampilan-progress" style="width: 75%">
+              <span class="keterampilan-percent">75%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--===== HOBBIES =====-->
+    <section class="section" id="hobbies">
+      <h2 class="section-title">Hobi Saya</h2>
+      
+      <div class="hobbies-section">
+        <div class="hobby-card">
+          <div class="hobby-icon"><i class='bx bxs-cookie'></i></div>
+          <h3 class="hobby-name">Memasak</h3>
+        </div>
+        
+        <div class="hobby-card">
+          <div class="hobby-icon"><i class='bx bxs-pen'></i></div>
+          <h3 class="hobby-name">Menulis</h3>
+        </div>
+        
+        <div class="hobby-card">
+          <div class="hobby-icon"><i class='bx bxs-music'></i></div>
+          <h3 class="hobby-name">Mendengarkan Musik</h3>
+        </div>
+        
+        <div class="hobby-card">
+          <div class="hobby-icon"><i class='bx bxs-camera'></i></div>
+          <h3 class="hobby-name">Editing Digital</h3>
+        </div>
+      </div>
+    </section>
+    
+    
+  </main>
+  
+  <!--===== FOOTER =====-->
+  <footer class="footer">
+    <p class="footer__copy">© 2025 Indah Mellia. All rights reserved</p>
+  </footer>
+  
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  
+  <!--===== MAIN JS =====-->
+  <script src="./main.js"></script>
+</body>
+
+</html>
